@@ -9,6 +9,7 @@ namespace ReadonlyStructSample
             var point = new Dimensions(3, 6);
             Foo(point);
 
+            Console.WriteLine(point.Diagonal);
             Console.ReadLine();
         }
 
